@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements a full-featured database system around Algerian historical data stored in a text file. It covers fundamental data structures — **linked lists**, **stacks**, **queues**, and **binary search trees (BST)** — using both iterative and recursive approaches.
 
@@ -15,7 +15,7 @@ Data in the file follows a specific format:
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 ├── src/
@@ -39,9 +39,9 @@ Data in the file follows a specific format:
 
 ---
 
-## ⚙️ Features
+##  Features
 
-### 🔗 Linked Lists & Queues
+###  Linked Lists & Queues
 - Load personalities with definitions and dates into linked lists
 - Search by date of birth or death
 - Sort alphabetically, by name length, or by age
@@ -49,30 +49,30 @@ Data in the file follows a specific format:
 - Find palindrome names, similar personalities, merge into bidirectional/circular lists
 - Convert lists to queues
 
-### 📚 Stacks
+### Stacks
 - Convert merged lists to stacks
 - Search, sort, add, update, and delete from stacks
 - Convert stacks to queues or sorted linked lists
 - Reverse a stack recursively
 
-### 🌳 Binary Search Tree (BST)
+###  Binary Search Tree (BST)
 - Build BST from file or stack
 - In-order, pre-order, and post-order traversals
 - Insert, delete, update nodes
 - Find lowest common ancestor, in-order successor
 - Mirror a tree, check balance, merge two BSTs
 
-### 🔁 Recursion
+### Recursion
 - Count/remove/replace name occurrences in file
 - Generate permutations and subsequences of names/events
 - Check palindromes and overlapping date ranges
 
-### 🖥️ GUI
+###  GUI
 Built using one of: **GTK+**, **ncurses**, **Raylib**, or **SDL**
 
 ---
 
-## 🛠️ Build & Run
+##  Build & Run
 
 ```bash
 gcc -o algeria_db src/*.c -Iinclude $(pkg-config --cflags --libs gtk+-3.0)
@@ -83,7 +83,7 @@ gcc -o algeria_db src/*.c -Iinclude $(pkg-config --cflags --libs gtk+-3.0)
 
 ---
 
-## 📅 Submission Deadline
+##  Submission Deadline
 
 **May 14, 2026** — Complete C source code, test suite, and PDF report.
 
